@@ -10,8 +10,18 @@ import SwiftUI
 @main
 struct AUMIDIApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("MIDI") {
+            VStack {
+                ContentView()
+                
+                Button {
+                    NSApplication.shared.terminate(nil)
+                } label: {
+                    Text("Quit")
+                }
+            }
+            .padding()
         }
+        .menuBarExtraStyle(.window)
     }
 }

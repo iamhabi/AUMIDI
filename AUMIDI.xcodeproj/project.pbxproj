@@ -14,6 +14,8 @@
 		072928822B8F72DF0081D7E3 /* AUMIDITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072928812B8F72DF0081D7E3 /* AUMIDITests.swift */; };
 		0729288C2B8F72DF0081D7E3 /* AUMIDIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729288B2B8F72DF0081D7E3 /* AUMIDIUITests.swift */; };
 		0729288E2B8F72DF0081D7E3 /* AUMIDIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729288D2B8F72DF0081D7E3 /* AUMIDIUITestsLaunchTests.swift */; };
+		0729289B2B8F73380081D7E3 /* AudioUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729289A2B8F73380081D7E3 /* AudioUtils.swift */; };
+		0729289D2B8F73760081D7E3 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729289C2B8F73760081D7E3 /* AudioDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		072928872B8F72DF0081D7E3 /* AUMIDIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUMIDIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0729288B2B8F72DF0081D7E3 /* AUMIDIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUMIDIUITests.swift; sourceTree = "<group>"; };
 		0729288D2B8F72DF0081D7E3 /* AUMIDIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUMIDIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0729289A2B8F73380081D7E3 /* AudioUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUtils.swift; sourceTree = "<group>"; };
+		0729289C2B8F73760081D7E3 /* AudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				072928732B8F72DF0081D7E3 /* Assets.xcassets */,
 				072928782B8F72DF0081D7E3 /* AUMIDI.entitlements */,
 				072928752B8F72DF0081D7E3 /* Preview Content */,
+				0729289A2B8F73380081D7E3 /* AudioUtils.swift */,
+				0729289C2B8F73760081D7E3 /* AudioDevice.swift */,
 			);
 			path = AUMIDI;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				072928722B8F72DE0081D7E3 /* ContentView.swift in Sources */,
 				072928702B8F72DE0081D7E3 /* AUMIDIApp.swift in Sources */,
+				0729289D2B8F73760081D7E3 /* AudioDevice.swift in Sources */,
+				0729289B2B8F73380081D7E3 /* AudioUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
